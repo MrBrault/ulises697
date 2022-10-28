@@ -1,13 +1,86 @@
 <!DOCTYPE html>
- <html>
- <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width">
-   <title>Howdy!</title> 
- </head>
- <body>
- <h1>Test</h1>
-
-  
- </body>
- </html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Ping Pong Pizza</title>
+  <style>
+    body {background-color: pink;}
+    h1 {font-family: Verdana; color: green; text-align: center;}
+    p {font-family: Verdana;}
+    li {font-family: Verdana;}
+  </style>
+</head>
+<body>
+  <h1>Ping Pong Pizza</h1>
+  <h2>Welcome</h2>
+  <p>Welcome to Ping Pong Pizza's Official website. Here you can learn about us, Schedule an event, check out our locations, or shoot us an Email. Have a look around.</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/NYPizzaPie.jpg/640px-NYPizzaPie.jpg" width="440" height="328" alt="Pizza photo" />
+  <h2>About us</h2>
+  <p>As the name suggests, Ping Pong Pizza is a pizzaria that was founded not too long ago. Our founder, Rodney, had always wanted to start his own pizzaria, but didn't have the money to do so. He started a small tech company 10 years ago that he recently sold to Facebook for a modest sum and decided now was the time to pursue his childhood dreams. Our restaurant is focused on family experiences while serving quality pizza at a reasonable price. It is also because of our dedication to family experiences that we don't do delivery. A few of our side attractions include an arcade and play area for kids.</p>
+  <h2>Our Deals</h2>
+  <p>Below is a table of some of our deals.</p>
+  <table border="1">
+    <tr>
+      <td>Family size</td>
+      <td>Pizza type</td>
+      <td>Price</td>
+    </tr>
+    <tr>
+      <td>Small Family</td>
+      <td>Large one-topping pizza, and two sodas</td>
+      <td>$12.99</td>
+    </tr>
+    <tr>
+      <td>Medium Family</td>
+      <td>Large two-topping pizza, breadsticks, and four sodas</td>
+      <td>$19.99</td>
+    </tr>
+    <tr>
+      <td>Large Family</td>
+      <td>Two Large two-topping pizzas, breadsticks, cinnamon sticks and six sodas</td>
+      <td>$29.99</td>
+      <tr>
+  </table>
+  <h3>Toppings</h3>
+  <ul>
+    <li>Pepperoni</li>
+    <li>Mushrooms</li>
+    <li>Anchovies</li>
+    <li>Onions</li>
+    <li>Pinnaple</li>
+  </ul>
+  <img src="https://www.washingtonpost.com/resizer/WZA859eqdl1br735VlartjQpvYo=/arc-anglerfish-washpost-prod-washpost/public/KO6XMOQNAEI63CHIYWG4HW5O4I.jpg" width="300" height="200" alt="Pickle Pizza photo" />
+<h3>Arcade Games</h3>
+  <ul>
+    <li>Pac-Man</li>
+    <li>Galiga</li>
+    <li>Pong</li>
+    <li>Frogger</li>
+    <li>And much more!</li>
+  </ul>
+  <h2>Play Area</h2>
+  <p>Unlike most pizzarias, we have an indoor play area! It's different areas and activities will provide hours of fun for your kids. More info will be provided in the future.</p>
+  <img src="https://thefamilyplayhouse.com/wp-content/uploads/2019/02/51794320_2338318783118919_2751580131146334208_n.jpg" width="660" height="420" alt="Playground photo" />
+  <p> let us know how we can improve with this survey:</p>
+  <form method="post" action="process.php">
+    <fieldset>
+      <Legend>How did we do?</legend>
+    Name: <input type="text" size:"20" Name="Name"/><br/>
+    How was your experience?<br/>
+    <input type="radio" name="Enjoyment" value="Great!"/>Great!<br/>
+    <input type="radio" name="Enjoyment" value="Good."/>Good.<br/>
+    <input type="radio" name="Enjoyment" value="Neutral."/>Neutral.<br/>
+    <input type="radio" name="Enjoyment" value="Bad."/>Bad.<br/>
+    <input type="radio" name="Enjoyment" value="Horrible."/>Horrible.<br/>
+    <br/>
+      <!--I mispelled radio as "raido" when coding this, make sure to spell the inputs correctly to get them to work.-->
+    Tell us why:<br/>
+    <textarea name="explain" rows="9" cols="40">
+Type here.</textarea><br/>
+    <input type="submit" value="Submit" />
+    </fieldset>
+  </form>
+ <p> Want to schedule a birthday party or other event? <a href="mailto:pingpongpizza@domain.com">Click here to send an Email!</a></p><!--Not a valid email.-->
+</body>
+</html>
